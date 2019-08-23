@@ -1,205 +1,167 @@
 @import url("https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap");
 
 .background-image {
-  background-image: url("http://getwallpapers.com/wallpaper/full/5/3/2/299596.jpg");
-  background-color: #ffdfa2;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+   background-image: url("http://getwallpapers.com/wallpaper/full/5/3/2/299596.jpg");
+   background-color: #ffdfa2;
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
 }
+
 body {
-  font-family: "Fredericka the Great", cursive;
-  background: #874721;
-  font-size: 30px;
-  font-weight: 500;
-  min-width: 280px;
-  padding-top: 80px;
+   font-family: "Fredericka the Great", cursive;
+   background: #874721;
+   font-size: 30px;
+   font-weight: 500;
+   min-width: 280px;
+   padding-top: 80px;
+  margin: 0;
 }
 
 header {
-  position: fixed;
-  width: 100%;
-  height: 80px;
-  top: 0;
-  display: flex;
-  background: #ffdfa2;
-  align-items: center;
-  justify-content: space-between;
-  z-index: 51;
-  transition: top 0.2s ease-in-out;
+   position: fixed;
+   width: 100%;
+   height: 80px;
+   top: 0;
+   display: flex;
+   background: #ffdfa2;
+   align-items: center;
+   justify-content: space-between;
+   z-index: 51;
+   transition: top 0.2s ease-in-out;
 }
 
 #header-img {
-  width: 65px;
-  align-items: center;
-  height: 65px;
-  margin-left: 20px;
+   width: 65px;
+   align-items: center;
+   height: 65px;
+   margin-left: 20px;
+}
+img{
+  max-width:100%;
+  max-height:100%;
 }
 #logo-pic {
-  max-width: 55px;
-  margin-right: 5px;
+   max-width: 55px;
+   margin-right: 5px;
+}
+nav {
+   margin-right: 80px;
+   text-decoration: none;
+   color: black;
 }
 
-nav-bar a {
-  margin-right: 20px;
-  text-decoration: none;
-  color: black;
-}
 #title-section {
-  display: flex;
-  width: 75%;
-  flex-direction: column;
-  align-items: center;
-  height: 100px;
-  background: #83e0e7;
-  top: 40px;
-  margin: -10px 0px 0px 160px;
-  z-index: 49;
+   display: flex;
+   width: 75%;
+   flex-direction: column;
+   align-items: center;
+   height: 100px;
+   background: #83e0e7;
+   top: 40px;
+   margin: -10px 0px 10px 160px;
+   z-index: 49;
+  opacity: 0.8;
 }
 
 #content2 {
-  margin: auto auto 8px auto;
+   margin: 0px 80px 0px 80px;
 }
 
 #content {
-  width: 90%;
-  background: #e2af0c;
-  position: fixed;
-  top: 40px;
-  bottom: 0px;
-  background: #e2af0c;
-  margin: 20px 80px 0px 80px;
-  opacity: 0.5;
-  z-index: -1;
+   width: 90%;
+   background: #e2af0c;
+   position: fixed;
+   top: 40px;
+   bottom: 0px;
+   background: #e2af0c;
+   margin: 20px 80px 0px 80px;
+   opacity: 0.5;
+   z-index: -1;
 }
 
 #video {
-  background: red;
-  display: flex;
-  width: 75%;
-  flex-direction: column;
-  align-items: center;
-  background: #e2af0c;
-  top: 40px;
-  margin: -10px 0px 0px 160px;
+   background: red;
+   display: flex;
+   width: 75%;
+   flex-direction: column;
+   align-items: center;
+   background: #e2af0c;
+   top: 40px;
+   margin: -10px 0px 0px 160px;
 }
-iframe {
-  width: 560px;
-  height: 315px;
-}
+iframe{width:560px; height:315px}
 
 .flex-container {
-  display: flex;
-  flex-direction: column;
+   display: flex;
+   flex-direction: column;
 }
 
 // FOOTER
 footer {
-  position: fixed;
-  height: 15vh;
-  width: 100%;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  background: #ffdfa2;
-  justify-content: flex-end;
-  z-index: 40;
+   position: fixed;
+   height: 15vh;
+   width: 100%;
+   bottom: 0;
+   left: 0;
+   display: flex;
+   background: #ffdfa2;
+   justify-content: flex-end;
+   z-index: 40;
 }
 #wrapper {
-  background: #ffdfa2;
-  text-align: right;
-  padding: 20px;
-  font-size: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  font-family: var(--content-font);
+   background: #ffdfa2;
+   text-align: right;
+   padding: 20px;
+   font-size: 20px;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-end;
+   font-family: var(--content-font);
+}
+
+
+.options {
+   display: flex;
+   flex-direction: row;
+   align-items: stretch;
+   overflow: hidden;
+   margin: 100px 0px 100px 0px;
+   min-width: 100%;
+   max-width: 100%;
+   width: calc(100% - 100px);
+   height: 400px;
+
+}
+
+.shadow {
+            box-shadow: 30px 10px 100px inset,
+              10px 10px 8px;
+         }
+h3{color:white}
+#gardening{
+  width: 100%;
+  background: url('https://media.npr.org/assets/img/2012/05/31/little-tomato-plant-bb7157f07df499cda29f37922a93c8c55ded500d-s800-c85.jpg');
+    background-size:200%;
+}
+#woodwork{
+  width: 100%;
+  background: url('http://getwallpapers.com/wallpaper/full/5/3/2/299596.jpg');
+  background-size:300%;
+}
+#boutique{
+  width: 100%;
+  background: url('https://cdn.shopify.com/s/files/1/0027/5261/0363/products/image_cb538f3e-e5a7-4880-96ee-4515343890ea_1080x.jpg?v=1556824566');
+  background-size:200%;
 }
 
 footer a {
-  text-decoration: none;
+   text-decoration: none;
 }
 
 #footer-links {
-  width: 300px;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 8px;
-}
-
-//////////////////////////////////////////
-
-.credit {
-  position: absolute;
-  bottom: 20px;
-  left: 20px;
-
-  color: #000;
-}
-
-@media only screen and (max-width: 1400px) and (min-width: 0px) {
-  body {
-    padding: 30px 0px;
-  }
-  .background-image {
-    background-size: 520%;
-    padding: auto 40px;
-  }
-  header {
-    font-size: 15px;
-    max-height: 40px;
-  }
-  #header-img {
-    height: 40px;
-    width: 35px;
-    margin-left: 0px;
-  }
-  #title-section {
-    margin: 0px 0px 0px 0px;
-    max-height: 40px;
-    font-size: 15px;
-    width: 100%;
-  }
-  #content {
-    z-index: -10;
-    margin: 0px 0px 0px 0px;
-    width: 100%;
-    padding-bottom: 0px;
-  }
-  #video {
-    width: 100%;
-    margin: 0px 0px 0px 0px;
-    background: none;
-  }
-  iframe {
-    width: 100%;
-  }
-  .options {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: stretch;
-    margin: 0px 0px 0px 0px;
-  }
-  .option {
-    height: 150px;
-    background-size: auto 120%;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .shadow {
-  }
-  .label {
-    color: white;
-    height: 150px;
-    box-shadow: 
-      inset 0 120px 120px -100px black;
-  }
-  .info {
-    font-size: 20px;
-  }
-  footer {
-    height: 40px;
-    opacity: 0.5;
-  }
+   width: 300px;
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 8px;
 }
